@@ -13,7 +13,7 @@ function Data() {
           </p>
         </div>
       </div>
-      <div className="data-logo2">
+      <div className="data-logo">
         <i class="fa-solid fa-file-lines fa-2xl"></i>{" "}
         <div className="data-order">
           <p>Order</p>
@@ -23,7 +23,7 @@ function Data() {
           </p>
         </div>
       </div>
-      <div className="data-logo3">
+      <div className="data-logo">
         <i class="fa-solid fa-wallet fa-2xl"></i>{" "}
         <div className="data-balance">
           <p>Balance</p>
@@ -33,7 +33,7 @@ function Data() {
           </p>
         </div>
       </div>
-      <div className="data-logo4">
+      <div className="data-logo">
         <i class="fa-solid fa-lock fa-2xl"></i>{" "}
         <div className="Total Sale">
           <p>Earning</p>
