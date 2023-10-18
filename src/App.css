@@ -90,7 +90,7 @@ body,
   justify-content: center;
   align-items: center;
   position: absolute;
-  bottom: 0px;
+  bottom: 10px;
 }
 .dashboard-user i {
   margin-left: 15px;
