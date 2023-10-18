@@ -1,26 +1,31 @@
-*{
+* {
   margin: 0;
   padding: 0;
 }
-.app{
+html,
+body,
+#root {
+  height: 100%;
+}
+.app {
   display: flex;
 }
-.navbar{
+.navbar {
   background-color: rgb(39, 3, 93);
   max-width: 200px;
   /* height: 100vh; */
   color: white;
   padding: 5px 30px;
 }
-.dashboard-logo{
+.dashboard-logo {
   display: flex;
   align-items: center;
   margin: 9px 0 60px 0;
 }
-.dashboard-logo h1{
+.dashboard-logo h1 {
   margin-left: 12px;
 }
-.dashboard{
+.dashboard {
   display: flex;
   margin: 0 0 15px 15px;
   padding: 10px;
@@ -28,124 +33,123 @@
   background-color: rgba(124, 7, 226, 0.45);
   align-items: center;
 }
-.dashboard p{
+.dashboard p {
   margin: 0 0 0 9px;
 }
-.dashboard-product{
+.dashboard-product {
   display: flex;
   align-items: center;
   margin: 0 2px 15px 15px;
   padding: 5px 10px;
   border-radius: 5px;
 }
-.dashboard-product p{
+.dashboard-product p {
   margin: 0 70px 0 10px;
 }
-.dashboard-customer{
+.dashboard-customer {
   display: flex;
   align-items: center;
   margin: 0 2px 15px 15px;
   padding: 5px 10px;
   border-radius: 5px;
 }
-.dashboard-customer p{
+.dashboard-customer p {
   margin: 0 50px 0 10px;
 }
-.dashboard-income{
+.dashboard-income {
   display: flex;
   align-items: center;
   margin: 0 2px 15px 15px;
   padding: 5px 10px;
   border-radius: 5px;
 }
-.dashboard-income p{
+.dashboard-income p {
   margin: 0 70px 0 10px;
 }
-.dashboard-promote{
+.dashboard-promote {
   display: flex;
   align-items: center;
   margin: 0 2px 15px 15px;
   padding: 5px 10px;
   border-radius: 5px;
 }
-.dashboard-promote p{
+.dashboard-promote p {
   margin: 0 58px 0 10px;
 }
-.dashboard-help{
+.dashboard-help {
   display: flex;
   align-items: center;
   margin: 0 2px 15px 15px;
   padding: 5px 10px;
   border-radius: 5px;
 }
-.dashboard-help p{
+.dashboard-help p {
   margin: 0 85px 0 10px;
 }
-.dashboard-user{
+.dashboard-user {
   position: absolute;
   display: flex;
   bottom: 10px;
 }
-.dashboard-user i{
+.dashboard-user i {
   margin-left: 15px;
 }
-.dashboard-user p{
+.dashboard-user p {
   font-size: 13px;
 }
-.dashboard-user img{
+.dashboard-user img {
   border-radius: 50%;
   margin-right: 5px;
 }
-.maincontent{
-  
-  background-color: rgba(13,87,62,.132);
-    width: calc(100% - 15%);
-    padding: 20px 40px;
+.maincontent {
+  background-color: rgba(13, 87, 62, 0.132);
+  width: calc(100% - 15%);
+  padding: 20px 40px;
 }
-.mainnav{
+.mainnav {
   display: flex;
   justify-content: space-between;
   padding: 15px 20px;
 }
-.mainnav-name{
+.mainnav-name {
   display: flex;
   align-items: center;
 }
 
-.mainnav-name i{
+.mainnav-name i {
   margin-left: 10px;
   color: rgba(205, 105, 6, 0.769);
 }
-.mainnav input{
- margin-right: 29px;
- border-radius: 3px;
- border: none;
- padding: 6px;
+.mainnav input {
+  margin-right: 29px;
+  border-radius: 3px;
+  border: none;
+  padding: 6px;
 }
-.data{
+.data {
   display: flex;
   margin-top: 20px;
   width: 100%;
   gap: 10px;
 }
-.data p{
+.data p {
   color: grey;
 }
-.data-logo{
+.data-logo {
   align-items: center;
   background-color: #fff;
   border-radius: 10px;
   display: flex;
   justify-content: center;
   padding: 10px 20px;
-  width: calc(100%/4);
+  width: calc(100% / 4);
 }
-.data-logo i{
+.data-logo i {
   color: rgba(45, 222, 14, 0.795);
   font-size: 50px;
   margin-right: 20px;
 }
-.data-logo span{
+.data-logo span {
   color: green;
   font-size: 13px;
   font-weight: 700;
@@ -213,83 +217,82 @@
   font-size: 13px;
   font-weight: 700;
 } */
-.chart{
+.chart {
   display: flex;
   justify-content: space-between;
   margin-top: 20px;
   gap: 10px;
 }
- .barchart{
+.barchart {
   background-color: #fff;
-    border-radius: 7px;
-    padding: 20px;
-    width: 60%;
+  border-radius: 7px;
+  padding: 20px;
+  width: 60%;
 }
 
-
-.barchart p{
+.barchart p {
   font-size: 13px;
   color: gray;
 }
- .paichart{
+.paichart {
   background-color: #fff;
-    border-radius: 7px;
-    width: 30%;
-    padding: 20px;
+  border-radius: 7px;
+  width: 30%;
+  padding: 20px;
 }
-.paichart-graph{
+.paichart-graph {
   /* width: 270px; */
   display: flex;
-    height: 175px;
-    justify-content: center;
+  height: 175px;
+  justify-content: center;
 }
 
-.paichart p{
+.paichart p {
   font-size: 13px;
   color: gray;
 }
 
-.headerchart{
+.headerchart {
   display: flex;
   align-items: center;
   justify-content: space-between;
 }
-.canvasBar{
+.canvasBar {
   width: 100% !important;
   padding: 5px 20px;
 }
-.fillerbox select{
+.fillerbox select {
   margin: 0px 5px 0 10px;
   background-color: rgba(13, 87, 62, 0.132);
   border: none;
   padding: 4px;
   border-radius: 3px;
 }
-.table{
+.table {
   background-color: #fff;
   border-radius: 7px;
   margin-top: 20px;
   padding: 10px;
 }
-.table-heading{
+.table-heading {
   display: flex;
   align-items: center;
   justify-content: space-between;
   margin-bottom: 20px;
 }
-.table-heading h3{
+.table-heading h3 {
   margin-top: 10px;
 }
-.table-input{
+.table-input {
   display: flex;
 }
-.table-input input{
+.table-input input {
   background-color: rgba(13, 87, 62, 0.132);
   border: none;
   padding: 4px;
   border-radius: 3px;
 }
-.table-selector select{
+.table-selector select {
   margin: 0px 5px 0 10px;
   background-color: rgba(13, 87, 62, 0.132);
   border: none;
@@ -302,9 +305,10 @@ table {
   border-collapse: collapse;
 }
 
-th, td {
+th,
+td {
   border: 1px solid #ddd;
-  padding: 5px ;
+  padding: 5px;
   text-align: left;
 }
 
@@ -326,17 +330,10 @@ td p {
   margin: 0;
   padding: 0;
 }
-.logo2{
+.logo2 {
   display: flex;
-  
 }
-.logo2 img{
+.logo2 img {
   margin: 0 7px 0 15px;
   border-radius: 7px;
 }
-
-
-
-
-
-
